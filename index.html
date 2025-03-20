@@ -30,8 +30,9 @@
             </ul>
             <div class="image1">
                 <img src="images/family.jpg" alt="">
-                <button class="btn">GET STARTED</button>
-                <div class="textsmooth"><p id="smooth">SMOOTH MOVING FOR YOUR FAMILY</p>
+                <button class="btn1">GET STARTED</button>
+                <div class="textsmooth">
+                    <p id="smooth">SMOOTH MOVING FOR YOUR FAMILY</p>
                     <h1 id="moving">Moving Strive To <br><span>Make it Easy.</span></h1>
                 </div>
             </div>
@@ -67,36 +68,36 @@
             <p>OUR SERVICES</p>
             <h1>What We Do</h1>
         </div>
-        <div class="images">
-            <img src="images/box.png" alt="" id="image4">
-            <img src="images/house.png" alt="" id="image5">
-            <img src="images/truck.webp" alt="" id="image6">
-           <img src="images/quality.png" alt="" id="image7">
-        </div>
+
        <div class="image_description">
-        <div>
+        <div class="packing">
+            <img src="images/box.png" alt="" id="image4" class="images">
             <h1>Packing</h1>
             <p1>Phase sit amet do<br>tris lorem sum is<br>simply free</p1>
             <p>READ MORE</p>
         </div>
-        <div>
+        <div class="storage">
+            <img src="images/house0.webp" alt="" id="image5" class="images">
             <h1>Storage</h1>
             <p1>Phase sit amet do<br>tris lorem sum is<br>simply free</p1>
             <p>READ MORE</p>
         </div>
-        <div>
+        <div class="truck">
+            <img src="images/truck.webp" alt="" id="image6" class="images">
             <h1>Transport</h1>
             <p1>Phase sit amet do<br>tris lorem sum is<br>simply free</p1>
             <p>READ MORE</p>
+            
         </div>
-        <div>
+        <div class="insurance">
+            <img src="images/quality.png" alt="" id="image7" class="images">
             <h1>Insurance</h1>
             <p1>Phase sit amet do<br>tris lorem sum is<br>simply free</p1>
             <p>READ MORE</p>
         </div>
 
        </div>
-       <div >
+       <div class="video">
         <h1>Helping You Every Step of<br><span>the Way</span></h1>
         <p>Click on this video to check how we<br>work with Our Clients </p>
         <img src="images/movingboxes.jpeg" alt="" id="image8">
@@ -113,10 +114,15 @@
         <div class="reasons">
             <a href="#">WHY CHOSE RIAAD</a>
             <h1>We are Leading in <br><span>Moving Business.</span></h1>
-            <p>Tincidunt elit magnis nulia facilis sagitis maecenas.Sapien<br><span>nunced amet ultrices,dolores sit ipsum velit purus aliquet,</span>massa fringilla leo orcium dolors sit amet elit magnis amet<br><span>ultrices lorem ipsum is simply free text purusrfed aliquet.</span></p>
-            <i class="fa-solid fa-circle-check"></i><span>Helping over 250,000 movers in the USA</span>
-            <i class="fa-solid fa-circle-check"></i><span>Save 70% off the cost of your moving</span>
-            <i class="fa-solid fa-circle-check"></i><span>Book survey at a time that suits you</span>
+            <p>Tincidunt elit magnis nulia facilis sagitis maecenas.Sapien<br><span>nunced amet ultrices,dolores sit ipsum velit purus aliquet,<br></span>massa fringilla leo orcium dolors sit amet elit magnis amet<br><span>ultrices lorem ipsum is simply free text purusrfed aliquet.</span></p>
+            <br>
+            <div class="benefits">
+            <i class="fa-solid fa-circle-check"></i><span class="help">Helping over 250,000 movers in the USA</span>
+            <br><br><br>
+            <i class="fa-solid fa-circle-check"></i><span class="save">Save 70% off the cost of your moving</span>
+            <br><br><br>
+            <i class="fa-solid fa-circle-check"></i><span class="booktime">Book survey at a time that suits you</span>
+            </div>
         </div>
        </div>
        <div class="book">
@@ -127,6 +133,7 @@
             <img src="images/couple.jpg" alt="" id="image10">
             <i class="fa-solid fa-circle-play" id="playbutton2"></i>
         </div>
+        <div class="actualform">
         <div class="leftside">
            <a href="#">BOOK US NOW</a>
            <h1>Request a <br><span>Free Quote</span><br><span>Today</span></h1>
@@ -137,31 +144,37 @@
                 <label for="type">Moving Type</label>
                 <input type="text" placeholder="local" id="movingtype" required>
             </div>
-            <div class="calendar">
-                <label for="date">Date</label>
-                <input id="date" type="date" placeholder="date" required>
-            </div>
-            </div>
-            <br>
-            <div class="second_row">
             <div class="place">
                 <label for="depature">From</label>
                 <input id="depature"  type="text" placeholder="city,state" required >
             </div>
             <div>
-                <label for="home_size">Home Size</label>
-                <input  id="size" placeholder="0" type="text" required>
-            </div>
+                <label for="destination">To</label>
+                <input  id="destination" type="text" placeholder="city,state" required><br>
             </div>
             <br>
-            <div class="third_row">
+           
+            </div>
+            <div class="second_row">
             <div class="place">
-                <label for="destination">To</label>
-                <input  id="destination" type="text" placeholder="city,state" required>
-                <button class="btn2"    id="send_request" type="submit"><b>SEND REQUEST</b></button>
+                <div class="calendar">
+                    <label for="date">Date</label>
+                    <input id="date" type="date" placeholder="date" required>
+                </div>
+                <div>
+                    <label for="home_size">Home Size</label>
+                    <input  id="size" placeholder="0" type="text" required>
+                </div>
+                <br>
+                <div>
+                    <button class="btn2"    id="send_request" type="submit"><b>SEND REQUEST</b></button>
+                </div>
             </div>
             </div>
             
+           </div>
+            </div>
+            </div>
         </div>
      </div>
      <div class="ourtest">
@@ -171,26 +184,32 @@
      <div class="testimonials">
         <div class="testimonial_1">
             <i class="fa-solid fa-quote-left"></i>
-            <p>I was impresed by the moving services,<br><span>lorem ipsum is simply free text used by</span><br><span>copytyping refreshing.Neque porro est qui</span><br><span>not dolorem ipsum is simply free text</span><br><span>available in the market quia</span><br><span>Christine Rose</span><br><span>CUSTOMER</span></p>
+            <p>I was impresed by the moving services,<br><span>lorem ipsum is simply free text used by</span><br><span>copytyping refreshing.Neque porro est qui</span><br><span>not dolorem ipsum is simply free text</span><br><span>available in the market quia</p>
+            <p id="customer">Christine Rose</p>
+            <p>CUSTOMER</p>
             <img src="images/christine.jpeg" alt="" id="image11">
         </div>
         <br>
         <div class="testimonial_2">
             <i class="fa-solid fa-quote-left"></i>
-            <p>I was impresed by the moving services,<br><span>lorem ipsum is simply free text used by</span><br><span>copytyping refreshing.Neque porro est qui</span><br><span>not dolorem ipsum is simply free text</span><br><span>available in the market quia</span><br><span>Christine Rose</span><br><span>CUSTOMER</span></p>
-            <img src="images/christine.jpeg" alt="" id="image11">
+            <p>I was impresed by the moving services,<br><span>lorem ipsum is simply free text used by</span><br><span>copytyping refreshing.Neque porro est qui</span><br><span>not dolorem ipsum is simply free text</span><br><span>available in the market quia
+            <p id="customer">Margaret Smith</p>
+            <p>CUSTOMER</p>   
+            <img src="images/margaret.jpeg" alt="" id="image11">
         </div>
         <br>
         <div class="testimonial_3">
             <i class="fa-solid fa-quote-left"></i>
-            <p>I was impresed by the moving services,<br><span>lorem ipsum is simply free text used by</span><br><span>copytyping refreshing.Neque porro est qui</span><br><span>not dolorem ipsum is simply free text</span><br><span>available in the market quia</span><br><span>Christine Rose</span><br><span>CUSTOMER</span></p>
-            <img src="images/christine.jpeg" alt="" id="image11">
+            <p>I was impresed by the moving services,<br><span>lorem ipsum is simply free text used by</span><br><span>copytyping refreshing.Neque porro est qui</span><br><span>not dolorem ipsum is simply free text</span><br><span>available in the market quia</p>
+            <p id="customer">Marcus Aurelias</p>
+            <p>CUSTOMER</p>
+            <img src="images/marcus.jpeg" alt="" id="image11">
         </div>
      </div>
         <div class="newsletter">
           <p>NEWSLETTER SIGNUP</p>
           <h1>Join For New Updates</h1>
-          <div>
+          <div class="subscribe">
             <input type="email" placeholder="email address">
             <button class="btn3"    id="subscribe" type="submit"><b>SUBSCRIBE NOW</b></button>
           </div>
@@ -202,7 +221,7 @@
         <div class="articles">
             <div class="customerservice">
                 <img src="images/customerservice.jpeg" alt="" id="image12">
-                 <p>Admin   Commen (0)</p>
+                 <p>Admin Commen (0)</p>
                 <h1>Our Home<br><span>Entertainment has</span><br><span>Evolved Significantly</span></h1>
             </div>
             <div class="happy_couple">
@@ -211,7 +230,7 @@
                 <h1>Making a Choice<br><span>Between Moving</span><br><span>Companies</span></h1>
             </div>
             <div class="companyboxes">
-                <img src="images/movingcompany.webp" alt="" id="iamge14">
+                <img src="images/movingcompany.webp" alt="" id="image14">
                 <p>Admin   Commen (0)</p>
                 <h1>Baby Boomer and<br><span>Empty Nesters on</span><br><span>the Move</span></h1>
             </div>
